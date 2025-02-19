@@ -1,0 +1,43 @@
+.chart-container {
+    padding: 16px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #18181b;
+    margin-bottom: 10px;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chart-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.volume-dot {
+    background-color: #1e90ff;
+}
+
+.services-dot {
+    background-color: #19c37d;
+}

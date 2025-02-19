@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {
+    .collapsed-btn {
+        display: block !important;
+    }
+}
+
+.collapsed-btn {
+    display: none;
+}
+
+.dropdown-language {
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 840px) {
+
+    .search,
+    .user_down,
+    .user_name,
+    .language_icon,
+    .language_name {
+        display: none;
+    }
+}

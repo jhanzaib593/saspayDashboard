@@ -1,0 +1,102 @@
+.logo {
+    /* padding: 20px 0; */
+    margin: 0 auto;
+}
+
+.ant-menu-inline .ant-menu-item-selected {
+    background-color: #1559ED !important;
+    color: white !important
+}
+
+.Card-caar {
+    background-color: #2f6fed;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 0;
+    overflow: hidden;
+
+}
+
+.Card-caar::before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    bottom: 8em;
+    left: 5em;
+}
+
+.Card-caar::after {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    top: 9em;
+    right: 9em;
+}
+
+.ant-layout-sider-zero-width-trigger {
+    display: none !important;
+}
+
+.collapsed-close {
+    display: none;
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    .sider {
+        width: 100%;
+    }
+
+    .collapsed-close {
+        display: block;
+    }
+
+    .ant-layout-sider {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        overflow: auto;
+        transition: all 0.3s;
+    }
+
+    .ant-layout-sider-children {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .ant-menu-item {
+        text-align: center;
+    }
+
+    .Card-caar {
+        padding: 1em;
+    }
+
+    .ant-btn {
+        width: 100%;
+    }
+
+    .ant-layout-sider-collapsed .ant-menu {
+        display: none;
+    }
+
+    .ant-layout-sider-collapsed {
+        width: 80px !important;
+    }
+
+    .ant-layout-sider-zero-width-trigger {
+        display: none;
+    }
+}

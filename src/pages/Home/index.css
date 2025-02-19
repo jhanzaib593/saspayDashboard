@@ -1,0 +1,16 @@
+.export-btn:hover {
+    border-color: #1559ED !important;
+    color: #1559ED !important;
+
+}
+
+.RevenueChart {
+    padding: 0px 0px !important;
+
+}
+
+@media screen and (max-width: 575px) {
+    .RevenueChart {
+        padding: 0px 0px !important;
+    }
+}
